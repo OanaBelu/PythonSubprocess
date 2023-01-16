@@ -1,6 +1,6 @@
 import os
 
-path = "C:\Program Files (x86)\AnyDesk\AnyDesk.exe"
+path = "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe"
 
 # Check if path exists
 os.access(path, os.F_OK)
