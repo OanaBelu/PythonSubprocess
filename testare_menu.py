@@ -1,3 +1,13 @@
+"""
+Menu
+  1. Create file (opens an existing file).
+  2. Write to file.
+  3. Display file's contents.
+  4. Exit.
+Select the operation: 
+
+"""
+
 import subprocess
 #
 # x = subprocess.call(r'./app.exe', stdin=2, stdout=subprocess.PIPE, stderr=None)
@@ -50,3 +60,4 @@ results = run_app()
 with open("results.txt", "w") as f:
     for result in results:
         f.write(result)
+        
