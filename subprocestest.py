@@ -2,7 +2,7 @@
 #
 # import subprocess
 #
-# cmd = r'C:\Users\Oana\Desktop\Rinf\PythonTesting\Testare C\meniutest.exe'
+# cmd = r'./meniutest.exe'
 # with open("output.txt", "a") as f:
 #     for i in range(1, 5):
 #         option = str(i)
